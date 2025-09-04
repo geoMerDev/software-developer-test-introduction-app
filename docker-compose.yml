@@ -1,7 +1,9 @@
+version: "3.9"
 services:
-  node.dev:
-    image: oven/bun:latest
-    volumes:
-      - ./:/app
-    working_dir: /app
-    entrypoint: bun index.ts
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    command: ["npm", "start"]
