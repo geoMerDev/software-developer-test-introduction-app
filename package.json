@@ -1,0 +1,18 @@
+{
+  "name": "musical-lake",
+  "version": "1.0.0",
+  "description": "Software Developer Basic Test - The Musical Lake (Node.js + Docker Compose)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --dev",
+    "test:examples": "node src/index.js --examples"
+  },
+  "keywords": ["musical", "lake", "coding-test", "docker-compose", "node", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
