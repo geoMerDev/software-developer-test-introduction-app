@@ -1,7 +1,8 @@
+version: '3.8'
 services:
   node.dev:
     image: oven/bun:latest
     volumes:
       - ./:/app
     working_dir: /app
-    entrypoint: bun index.ts
+    entrypoint: ["bun", "src/index.js"]

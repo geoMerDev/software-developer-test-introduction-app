@@ -1,0 +1,11 @@
+{
+  "name": "the-musical-lake",
+  "version": "1.0.0",
+  "description": "Software Developer Basic Test - The Musical Lake",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Erick Choez",
+  "license": "MIT"
+}
